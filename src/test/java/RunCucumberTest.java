@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
         @CucumberOptions(monochrome = true,
         features = {"src/test/resources/features"},
-        tags = "@UI"
+        tags = "@API"
         )
         public class RunCucumberTest {
         }
